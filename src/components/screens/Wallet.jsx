@@ -32,7 +32,7 @@ const walletData = [
 
 const WalletScreen = () => {
   return (
-    <div className="w-full h-screen relative flex-1 flex flex-col items-center justify-center">
+    <div className="w-full lg:h-screen relative flex-1 flex flex-col items-center justify-center">
       <div className="absolute top-[5.5rem] left-0 w-full z-10 flex items-center justify-between px-4">
         <h2 className="text-2xl font-bold poppins-bold">Wallet</h2>
         <select
@@ -60,7 +60,7 @@ const WalletScreen = () => {
         </button> */}
       </div>
       <div
-        className="w-[60rem] h-[60rem] rounded-full relative flex items-center justify-center"
+        className="lg:w-[60rem] lg:h-[60rem] mt-[7.5rem] pb-[10rem] lg:pb-0 lg:mt-0 rounded-full relative grid grid-cols-2 lg:flex items-center gap-4 justify-center"
         style={{
           background:
             "radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 43%, rgba(255, 255, 255, 0.5) 54%, rgba(253, 255, 252, 0.5) 63.5%, rgba(228, 255, 228, 0.5) 90.5%, rgba(255, 255, 255, 0.5) 99.5%)",

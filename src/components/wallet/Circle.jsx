@@ -3,7 +3,7 @@ import { TriangleIcon } from "../../design/Icons";
 const Circle = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center gap-8 p-12 w-[32rem] h-[32rem] rounded-full overflow-hidden"
+      className="flex flex-col items-center justify-center gap-8 p-12 w-[32rem] h-[32rem] col-span-full rounded-full overflow-hidden"
       style={{
         boxShadow: "0px 0px 20px 4px rgba(201, 234, 200, 1)",
       }}
